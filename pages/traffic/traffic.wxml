@@ -1,0 +1,103 @@
+<view class='container'>
+
+  <view class='bd'>
+    <view class='bd-top'>
+      <view class='route'>
+        <view class='route-img'><image src='../../imgs/fromTo.png'></image></view>
+        <view class='fromTo'>
+          <view class='from'>
+            <view class='attribute'><text>起始点：</text></view>
+            <view class='value'><text>小区名称</text></view>
+          </view>
+          <view class='line'></view>
+          <view class='to'>
+            <view class='attribute'><text>目的地：</text></view>
+            <view class='value'><text>徐家汇商圈</text></view>
+          </view>
+        </view>
+        <view class='trafficPay'>
+          <view class='pay-num'><text>360RMB</text></view>
+          <view class='pay-txt'><text>月均交通支出</text></view>
+        </view>
+      </view>
+    </view>
+    <map></map>
+    <view class='bd-btm'>
+      <view class='traffic'>
+        <view class='taxi'><image src='../../imgs/taxi.png'></image></view>
+        <view class='taxi-left con'>
+          <view><text>自驾出行</text></view>
+          <view class='choose'><text>13%的人选择自驾出行</text></view>
+        </view>
+        <view class='taxi-right con'>
+          <view><text>24min</text></view>
+          <view class='distance'><text>14km</text></view>
+        </view>
+      </view>
+      <view class='line'></view>
+      <view class='traffic'>
+        <view class='bus'><image src='../../imgs/bus.png'></image></view>
+        <view class='bus-left con'>
+          <view><text>轨交出行</text></view>
+          <view class='choose'><text>21%的人选择轨交出行</text></view>
+        </view>
+        <view class='bus-right con'>
+          <view><text>32min</text></view>
+          <view class='distance'><text>14km</text></view>
+        </view>
+      </view>
+      <view class='line'></view>
+      <view class='traffic'>
+        <view class='sub'><image src='../../imgs/subway.png'></image></view>
+        <view class='sub-left con'>
+          <view><text>地铁出行</text></view>
+          <view class='choose'><text>30%的人选择地铁出行</text></view>
+        </view>
+        <view class='sub-right con'>
+          <view><text>28min</text></view>
+          <view class='distance'><text>14km</text></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='tabBar'>
+    <scroll-view scroll-x='true' class='scroll'>
+      <!-- 推荐小区 -->
+      <view class='recommend'>
+        <navigator url='/pages/recommend/recommend'>
+          <view class='rec-icon'><image src='../../imgs/nav/recommend.png'></image></view>
+          <view class='rec-txt'><text>推荐小区</text></view>
+        </navigator>
+      </view>
+      <!-- 概况 -->
+      <view class='station'>
+        <navigator url='/pages/station/station'>
+          <view class='sta-icon'><image src='../../imgs/nav/station.png'></image></view>
+          <view class='sta-txt'><text>概况</text></view>
+        </navigator>
+      </view>
+      <!-- 交通 -->
+      <view class='traffic'>
+        <navigator url='/pages/traffic/traffic'>
+          <view class='tra-icon'><image src='../../imgs/nav/traffic-big.png'></image></view>
+          <view class='tra-txt'><text>交通</text></view>
+        </navigator>
+      </view>
+      <!-- 周边 -->
+      <view class='around'>
+        <navigator url='/pages/around/around'>
+          <view class='aro-icon'><image src='../../imgs/nav/around.png'></image></view>
+          <view class='aro-txt'><text>周边</text></view>
+        </navigator>
+      </view>
+      <!-- 治安 -->
+      <view class='order'>
+        <navigator url='/pages/order/order'>
+          <view class='ord-icon'><image src='../../imgs/nav/order.png'></image></view>
+          <view class='ord-txt'><text>治安</text></view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

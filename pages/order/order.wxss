@@ -1,0 +1,303 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.bd{
+  width: 88%;
+  height: 1000rpx;
+  margin: 0 auto;
+}
+
+.bd-top{
+  position: relative;
+  width: 100%;
+  height: 350rpx;
+}
+
+.bd .bd-top .sign-left,
+.bd .bd-top .sign-right{
+  width: 23rpx;
+  height: 125rpx;
+  z-index: 3;
+}
+
+.bd .bd-top .sign-left{
+  float: left;
+  margin-left: 60rpx;
+}
+
+.bd .bd-top .sign-right{
+  float: right;
+  margin-right: 60rpx;
+}
+
+.bd .bd-top .sign-left image,
+.bd .bd-top .sign-right image{
+  width: 100%;
+  height: 100%;
+}
+
+.bd .bd-top .level{
+  position: absolute;
+  width: 640rpx;
+  height: 220rpx;
+  left: 50%;
+  top: 27%;
+  margin-left: -318rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 100rpx #D1DCEF;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.bd .bd-top .level .lv-tit{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  color: #666666;
+}
+
+.bd .bd-top .level .lv-imgs{
+  width: 440rpx;
+  height: 80rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34rpx;
+}
+
+.bd .bd-top .level .lv-imgs view{
+  float: left;
+  width: 73rpx;
+  height: 66rpx;
+  margin: 0 9rpx;
+}
+
+.bd .bd-top .level .lv-imgs view image{
+  width: 100%;
+  height: 100%;
+}
+
+.bd .bd-con{
+  width: 100%;
+  height: 600rpx;
+}
+
+.bd .bd-con .measure{
+  width: 100%;
+  height: 300rpx;
+}
+
+.bd .bd-con .measure .mea-con{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.bd .bd-con .measure .mea-con .title{
+  position: relative;
+  font-size: 28rpx;
+  width: 180rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  border-radius: 25rpx;
+  background-color: #D9E8FB;
+  color: #6F99C7;
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.bd .bd-con .measure .mea-con .title .circle{
+  float: left;
+  position: absolute;
+  bottom: 0;
+  margin-left:200rpx;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50rpx;
+  background-color: #D9E8FB;
+}
+
+.bd .bd-con .measure .mea-li{
+  font-size: 28rpx;
+  margin-top: 50rpx;
+  margin-left: 20rpx;
+  color: #666666;
+}
+
+.bd .bd-con .measure .mea-li .list1,
+.bd .bd-con .measure .mea-li .list2{
+  display: flex;
+  align-items: center;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.bd .bd-con .measure .mea-li image{
+  width: 15rpx;
+  height: 16rpx;
+  margin-right: 10rpx;
+  align-items: center;
+}
+
+.bd .bd-con .measure .img-right{
+  position: relative;
+  float: right;
+  width: 50%;
+  height: 100%; /* 300rpx */
+}
+
+.bd .bd-con .measure .img-right image{
+  position: absolute;
+  width: 326rpx;
+  height: 222rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -163rpx;
+  margin-top: -111rpx;
+}
+
+
+.bd .bd-con .line{
+  width: 100%;
+  height: 0;
+  border-top: 1rpx solid #DDDDDD;
+  margin: 0 auto;
+}
+
+.bd .bd-con .larceny{
+  width: 100%;
+  height: 300rpx;
+}
+
+.bd .bd-con .larceny .lar-con{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+
+.bd .bd-con .larceny .lar-con .title{
+  float: right;
+  position: relative;
+  font-size: 28rpx;
+  width: 160rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  border-radius: 25rpx;
+  background-color: #D9E8FB;
+  color: #6F99C7;
+  text-align: center;
+  margin-top: 60rpx;
+}
+
+.bd .bd-con .larceny .lar-con .title .circle{
+  float: right;
+  position: absolute;
+  bottom: 0;
+  margin-left: -50rpx;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50rpx;
+  background-color: #D9E8FB;
+}
+
+.bd .bd-con .larceny .lar-li{
+  font-size: 28rpx;
+  margin-top: 50rpx;
+  margin-right: 20rpx;
+  color: #666666;
+}
+
+.bd .bd-con .larceny .lar-li .list1,
+.bd .bd-con .larceny .lar-li .list2{
+  float: right;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.bd .bd-con .larceny .lar-li .list1{
+  margin-top: 50rpx;
+}
+
+.bd .bd-con .larceny .img-left{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%; /* 300rpx */
+}
+
+.bd .bd-con .larceny .img-left image{
+  position: absolute;
+  width: 326rpx;
+  height: 222rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -163rpx;
+  margin-top: -85rpx;
+}
+
+/* 底部导航栏 */
+.tabBar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 230rpx;
+  background-color: #4F81B8;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.scroll{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabBar .recommend,
+.tabBar .station,
+.tabBar .traffic,
+.tabBar .around,
+.tabBar .order{
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+
+}
+
+.tabBar .order{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.tabBar .recommend .rec-icon,
+.tabBar .station .sta-icon,
+.tabBar .traffic .tra-icon,
+.tabBar .around .aro-icon,
+.tabBar .order .ord-icon{
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.tabBar .order .ord-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.tabBar view image{
+  width: 100%;
+  height: 100%;
+}
+
+.tabBar .recommend .rec-txt,
+.tabBar .station .sta-txt,
+.tabBar .traffic .tra-txt,
+.tabBar .around .aro-txt,
+.tabBar .order .ord-txt{
+  font-size: 25rpx;
+  color: #fff;
+  text-align: center;
+  margin-top: 20rpx;
+}

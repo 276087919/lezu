@@ -1,0 +1,263 @@
+.container{
+  width:100%;
+  height:100%;
+}
+
+.bd{
+  width: 100%;
+  height: 1200rpx;
+  position: relative;
+}
+
+.imgtop{
+  position: relative;
+  width: 600rpx;
+  height: 200rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p2top{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  margin-left: -300rpx;
+  margin-top: 20rpx;
+}
+
+.houseDetail{
+  position: absolute;
+  width: 630rpx;
+  height: 790rpx;
+  left: 50%;
+  top: 20%;
+  margin-left: -315rpx;
+  margin-top: -60rpx;
+  border: 1rpx solid #D1DCEF;
+  border-radius: 15rpx;
+  box-shadow: 0 0 10rpx #DEE5F4;
+  background-color: #fff;
+}
+
+.hD-con{
+  width: 100%;
+  height: 170rpx;
+}
+
+.line{
+  width: 92%;
+  height: 0;
+  border-top: 1rpx solid #CAD9EA;
+  margin: 0 auto;
+}
+
+.houseDetail .hD-con .avg-rent{
+  float: left;
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.houseDetail .hD-con .rent-num,
+.houseDetail .hD-con .adv{
+  float: right;
+  margin-right: 20rpx;
+}
+
+.houseDetail .hD-con .rent-num{
+  display: inline-block;
+  margin-top: 50rpx;
+  line-height: 40rpx;
+  color: #FFAE00;
+}
+
+.houseDetail .hD-con .adv{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.houseDetail .hD-con .rentWay{
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.houseDetail .hD-con .progress{
+  width: 92%;
+  height: 10rpx;
+  margin: 30rpx auto;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+.houseDetail .hD-con .progress .pro1{
+  float: left;
+  width: 85%;
+  height: 100%;
+  border-radius: 30rpx;
+  background-color: #009CFF;
+}
+
+.houseDetail .hD-con .progress .pro2{
+  float: left;
+  width: 15%;
+  height: 100%;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  background-color: #A7C0DB;
+}
+
+.houseDetail .hD-con .progress .pro3{
+  float: left;
+  width: 3%;
+  height: 100%;
+  border-bottom-left-radius: 30rpx;
+  border-top-left-radius: 30rpx;
+  background-color: #79D11A;
+}
+
+.houseDetail .hD-con .progress .pro4{
+  float: left;
+  width: 76%;
+  height: 100%;
+  border-bottom-right-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  background-color: #FFAE00;
+}
+
+.houseDetail .hD-con .progress .pro5{
+  float: left;
+  width: 21%;
+  height: 100%;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  background-color: #C148F4;
+}
+
+.houseDetail .hD-con .note{
+  height: 20rpx;
+  width: auto;
+  float: right;
+  margin-right: 25rpx;
+  margin-top: 16rpx;
+}
+
+.houseDetail .hD-con .note view{
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.houseDetail .hD-con .note text,
+.houseDetail .hD-con .note view{
+  font-size: 28rpx;
+  color: #999999;
+  float: left;
+  margin-left: 12rpx;
+  line-height: 20rpx;
+}
+
+.houseDetail .hD-con .note .square1{
+  background-color: #009CFF;
+}
+
+.houseDetail .hD-con .note .square2{
+  background-color: #A7C0DB;
+}
+
+.houseDetail .hD-con .note .square3{
+  background-color: #79D11A;
+}
+
+.houseDetail .hD-con .note .square4{
+  background-color: #FFAE00;
+}
+
+.houseDetail .hD-con .note .square5{
+  background-color: #C148F4;
+}
+
+.houseDetail .hD-con .month-pay{
+  float: left;
+  margin-top: 70rpx;
+  margin-left: 30rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.houseDetail .hD-con .pay-num{
+  float: right;
+  color: #C148F4;
+  margin-top: 70rpx;
+  margin-right: 20rpx;
+}
+
+/* 底部导航栏 */
+.tabBar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 230rpx;
+  background-color: #4F81B8;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.scroll{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabBar .recommend,
+.tabBar .station,
+.tabBar .traffic,
+.tabBar .around,
+.tabBar .order{
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+
+}
+
+.tabBar .station{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.tabBar .recommend .rec-icon,
+.tabBar .station .sta-icon,
+.tabBar .traffic .tra-icon,
+.tabBar .around .aro-icon,
+.tabBar .order .ord-icon{
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.tabBar .station .sta-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.tabBar view image{
+  width: 100%;
+  height: 100%;
+}
+
+.tabBar .recommend .rec-txt,
+.tabBar .station .sta-txt,
+.tabBar .traffic .tra-txt,
+.tabBar .around .aro-txt,
+.tabBar .order .ord-txt{
+  font-size: 25rpx;
+  color: #fff;
+  text-align: center;
+  margin-top: 20rpx;
+}

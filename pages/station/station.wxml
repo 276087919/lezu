@@ -1,0 +1,91 @@
+<view class='container'>
+
+  <view class='bd'>
+    <view class='imgtop'><image class='p2top' src='../../imgs/p2-top.png'></image></view>
+    <view class='houseDetail'>
+      <view class='hD-con'>
+        <view class='avg-rent'><text>平均租金（元/m²/月）</text></view>
+        <view class='rent-num'><text>3500元</text></view>
+        <view class='adv'><text>低于松江平均一居室租金200元</text></view>
+      </view>
+      <view class='line'></view>
+      <view class='hD-con'>
+        <view class='rentWay'><text>租赁方式</text></view>
+        <view class='progress'>
+          <view class='pro1'></view>
+          <view class='pro2'></view>
+        </view>
+        <view class='note'>
+          <view class='square1'></view>
+          <text>85%合租</text>
+          <view class='square2'></view>
+          <text>15%整租</text>
+        </view>
+      </view>
+      <view class='line'></view>
+      <view class='hD-con'>
+        <view class='rentWay'><text>租赁方式</text></view>
+        <view class='progress'>
+          <view class='pro3'></view>
+          <view class='pro4'></view>
+          <view class='pro5'></view>
+        </view>
+        <view class='note'>
+          <view class='square3'></view>
+          <text>3%精装</text>
+          <view class='square4'></view>
+          <text>76%普通装修</text>
+          <view class='square5'></view>
+          <text>21%毛坯</text>
+        </view>      
+      </view>
+      <view class='line'></view>
+      <view class='hD-con'>
+        <view class='month-pay'><text>平均月支出</text></view>
+        <view class='pay-num'><text>1726元</text></view>
+      </view>
+    </view>
+  </view>
+  
+
+  <view class='tabBar'>
+    <scroll-view scroll-x='true' class='scroll'>
+      <!-- 推荐小区 -->
+      <view class='recommend'>
+        <navigator url='/pages/recommend/recommend'>
+          <view class='rec-icon'><image src='../../imgs/nav/recommend.png'></image></view>
+          <view class='rec-txt'><text>推荐小区</text></view>
+        </navigator>
+      </view>
+      <!-- 概况 -->
+      <view class='station'>
+        <navigator url='/pages/station/station'>
+          <view class='sta-icon'><image src='../../imgs/nav/station-big.png'></image></view>
+          <view class='sta-txt'><text>概况</text></view>
+        </navigator>
+      </view>
+      <!-- 交通 -->
+      <view class='traffic'>
+        <navigator url='/pages/traffic/traffic'>
+          <view class='tra-icon'><image src='../../imgs/nav/traffic.png'></image></view>
+          <view class='tra-txt'><text>交通</text></view>
+        </navigator>
+      </view>
+      <!-- 周边 -->
+      <view class='around'>
+        <navigator url='/pages/around/around'>
+          <view class='aro-icon'><image src='../../imgs/nav/around.png'></image></view>
+          <view class='aro-txt'><text>周边</text></view>
+        </navigator>
+      </view>
+      <!-- 治安 -->
+      <view class='order'>
+        <navigator url='/pages/order/order'>
+          <view class='ord-icon'><image src='../../imgs/nav/order.png'></image></view>
+          <view class='ord-txt'><text>治安</text></view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

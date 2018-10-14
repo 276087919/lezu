@@ -1,0 +1,245 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.bd{
+  width: 100%;
+  height: 1250rpx;
+}
+
+.bd-top{
+  position: relative;
+  width: 100%;
+  height: 180rpx;
+  margin-top: 5rpx;
+}
+
+.bd-top .route .route-img{
+  position: absolute;
+  width: 36rpx;
+  height: 128rpx;
+  top: 50%;
+  margin-top: -64rpx;
+  margin-left: 20rpx;
+}
+
+.bd-top .route .route-img image{
+  width: 100%;
+  height: 100%;
+}
+
+.bd-top .route .fromTo{
+  position: relative;
+  width: 350rpx;
+  height: 180rpx;
+  margin-left: 60rpx;
+  color: #666666;
+}
+
+.bd-top .route .fromTo .from,
+.bd-top .route .fromTo .to{
+  position: absolute;
+  font-size: 28rpx;
+  width: 100%;
+  margin-left: 10rpx;
+}
+
+.bd-top .route .fromTo .from{
+  margin-top: 30rpx;
+}
+
+.bd-top .route .fromTo .to{
+  margin-top: 120rpx;
+}
+
+
+
+.bd-top .route .fromTo .from .attribute,
+.bd-top .route .fromTo .from .value,
+.bd-top .route .fromTo .to .attribute,
+.bd-top .route .fromTo .to .value{
+  float: left;
+}
+
+.bd-top .route .fromTo .line{
+  position: absolute;
+  width: 350rpx;
+  height: 0;
+  border-top: 1rpx solid #D3DFED; 
+  top: 50%;
+  margin-left: 10rpx;
+}
+
+.bd-top .route .trafficPay{
+  position: absolute;
+  width: 200rpx;
+  height: 120rpx;
+  font-size: 28rpx;
+  right: 0;
+  top: 50%;
+  margin-top: -60rpx;
+  margin-right: 100rpx;
+  border: 1rpx solid #BDCAD9;
+  border-radius: 20rpx;
+}
+
+.bd-top .route .trafficPay view{
+  text-align: center;
+  color: #999999;
+  line-height: 40rpx;
+}
+
+.bd-top .route .trafficPay .pay-num{
+  color: #8F87EA;
+  margin-top: 15rpx;
+}
+
+map{
+  width: 100%;
+}
+
+.bd .bd-btm{
+  width: 90%;
+  height: 602rpx;
+  margin: 0 auto;
+}
+
+.bd .bd-btm .traffic{
+  position: relative;
+  width: 100%;
+  height: 100rpx;
+  margin: 30rpx 0;
+}
+
+.bd .bd-btm .traffic .taxi,
+.bd .bd-btm .traffic .bus,
+.bd .bd-btm .traffic .sub{
+  position: absolute;
+  width: 72rpx;
+  height: 72rpx;
+  top: 50%;
+  margin-top: -36rpx;
+}
+
+.bd .bd-btm .traffic .taxi image,
+.bd .bd-btm .traffic .bus image,
+.bd .bd-btm .traffic .sub image{
+  width: 100%;
+  height: 100%;
+}
+
+.bd .bd-btm .traffic .con{
+  position: absolute;
+  height: 100rpx;
+  bottom: 0;
+  margin-bottom: -20rpx;
+  font-size: 32rpx;
+}
+
+.bd .bd-btm .traffic .taxi-left,
+.bd .bd-btm .traffic .bus-left,
+.bd .bd-btm .traffic .sub-left{
+  margin-left: 100rpx;
+}
+
+.bd .bd-btm .traffic .taxi-left .choose,
+.bd .bd-btm .traffic .bus-left .choose,
+.bd .bd-btm .traffic .sub-left .choose{
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.bd .bd-btm .traffic .taxi-right{
+  right: 0;
+  color: #8F87EA;
+}
+
+.bd .bd-btm .traffic .bus-right{
+  right: 0;
+  color: #79D11A;
+}
+
+.bd .bd-btm .traffic .sub-right{
+  right: 0;
+  color: #009CFF;
+}
+
+.bd .bd-btm .traffic .taxi-right .distance,
+.bd .bd-btm .traffic .bus-right .distance,
+.bd .bd-btm .traffic .sub-right .distance{
+  float: right;
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.bd .bd-btm .line{
+  width: 100%;
+  height: 0;
+  border-top: 1rpx solid #DDDDDD;
+}
+
+/* 底部导航栏 */
+.tabBar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 230rpx;
+  background-color: #4F81B8;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.scroll{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabBar .recommend,
+.tabBar .station,
+.tabBar .traffic,
+.tabBar .around,
+.tabBar .order{
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+
+}
+
+.tabBar .traffic{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.tabBar .recommend .rec-icon,
+.tabBar .station .sta-icon,
+.tabBar .traffic .tra-icon,
+.tabBar .around .aro-icon,
+.tabBar .order .ord-icon{
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.tabBar .traffic .tra-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.tabBar view image{
+  width: 100%;
+  height: 100%;
+}
+
+.tabBar .recommend .rec-txt,
+.tabBar .station .sta-txt,
+.tabBar .traffic .tra-txt,
+.tabBar .around .aro-txt,
+.tabBar .order .ord-txt{
+  font-size: 25rpx;
+  color: #fff;
+  text-align: center;
+  margin-top: 20rpx;
+}

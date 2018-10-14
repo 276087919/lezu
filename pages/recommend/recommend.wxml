@@ -1,0 +1,74 @@
+<view class='container'>
+  <image class='tips' src='../../imgs/tips.png'></image>
+  <view class='housePrice'>
+    <view class='price-top'>
+      <image class='price-bg' src='../../imgs/bg.png'></image>    
+    </view>
+    <view class='price-btm'>
+      <text class='message houseName'>中展瑞景</text>
+      <text class='message houseRent'>2000-3000元/月</text>
+    </view>
+  </view>
+  <view class='housePeople'>
+    <view class='people-l'>
+      <view class='analysis'>租客分析</view>
+      <view class='peopleimg'><image src='../../imgs/situation-1.png'></image></view>
+      <view class='progress1'>
+        <view class='pro1-color'></view>
+      </view>
+      <view class='percent1'><text>87%</text></view>
+      <view class='describe1'><text>为月收入低于5k的屌丝</text></view>
+    </view>
+    <view class='line'></view>
+    <view class='people-r'>
+      <view class='analysis'>小区人员情况</view>
+      <view class='peopleimg'><image src='../../imgs/situation-2.png'></image></view>
+      <view class='progress2'>
+        <view class='pro2-color'></view>
+      </view>
+      <view class='percent2'><text>64%</text></view>
+      <view class='describe2'><text>为大龄单身男青年</text></view>
+    </view>
+  </view>
+  <view class='blank'></view>
+  <view class='tabBar'>
+    <scroll-view scroll-x='true' class='scroll'>
+      <!-- 推荐小区 -->
+      <view class='recommend'>
+        <navigator url='/pages/recommend/recommend'>
+          <view class='rec-icon'><image src='../../imgs/nav/recommend-big.png'></image></view>
+          <view class='rec-txt'><text>推荐小区</text></view>
+        </navigator>
+      </view>
+      <!-- 概况 -->
+      <view class='station'>
+        <navigator url='/pages/station/station'>
+          <view class='sta-icon'><image src='../../imgs/nav/station.png'></image></view>
+          <view class='sta-txt'><text>概况</text></view>
+        </navigator>
+      </view>
+      <!-- 交通 -->
+      <view class='traffic'>
+        <navigator url='/pages/traffic/traffic'>
+          <view class='tra-icon'><image src='../../imgs/nav/traffic.png'></image></view>
+          <view class='tra-txt'><text>交通</text></view>
+        </navigator>
+      </view>
+      <!-- 周边 -->
+      <view class='around'>
+        <navigator url='/pages/around/around'>
+          <view class='aro-icon'><image src='../../imgs/nav/around.png'></image></view>
+          <view class='aro-txt'><text>周边</text></view>
+        </navigator>
+      </view>
+      <!-- 治安 -->
+      <view class='order'>
+        <navigator url='/pages/order/order'>
+          <view class='ord-icon'><image src='../../imgs/nav/order.png'></image></view>
+          <view class='ord-txt'><text>治安</text></view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

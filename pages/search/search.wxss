@@ -1,0 +1,146 @@
+/* pages/search/search.wxss */
+.container{
+  width:100%;
+  height:100%;
+}
+
+.top{
+  width:100%;
+  height:930rpx;
+  position: relative;
+}
+
+.imgtop{
+  position: relative;
+  width:700rpx;
+  height:200rpx;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 20px; */
+}
+
+.p1top{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  margin-left: -350rpx;
+}
+
+.content{
+  position: absolute;
+  width: 574rpx;
+  height: 810rpx;
+  border: 1px solid #D1DCEF;
+  left:50%;
+  top:20%;
+  margin-left: -287rpx;
+  margin-top: -3rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  box-shadow: 0 0 20px #D7E0F2;
+}
+
+.imgbom{
+  position: relative;
+  width:700rpx;
+  height:180rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70rpx;
+}
+
+.p1bom{
+  position: absolute;
+  width:100%;
+  height:100%;
+  left:50%;
+  margin-left: -350rpx;
+}
+
+.con-top{
+  position: relative;
+}
+
+.top-title{
+  width: 450rpx;
+  height: 52rpx;
+  background-color: #D9E8FB;
+  border-radius: 30rpx;
+  text-align: center;
+  margin-top: 55rpx;
+  margin-left: 26rpx;
+  overflow: hidden;
+  font-size: 26rpx;
+  color: #4178B0;
+  line-height: 52rpx;
+  letter-spacing: -1rpx;
+}
+
+.p1tit{
+  position: absolute;
+  width: 570rpx;
+  height: 120rpx;
+  top: 24rpx;
+  left: 10rpx;
+}
+
+.con-mid{
+  margin-top: 140rpx;
+}
+
+.con-input{
+  position: relative;
+  margin-left: 50rpx;
+  margin-bottom: 50rpx;
+  height: 80rpx;
+}
+
+text{
+  font-size: 28rpx;
+  color: #666666;
+}
+
+input{
+  display: inline-block;
+  width: 300rpx;
+  border-bottom: 1rpx solid #dddddd;
+  margin-left: 50rpx;
+  position: absolute;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.btn{
+  width: 530rpx;
+  height: 80rpx;
+  background-color: #6994C3;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 25rpx;
+  color: #fff;
+  margin-top: 100rpx;
+}
+
+
+
+.session-picker{
+  line-height: 1;
+  width: 300rpx;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  height: 56rpx;
+  margin-left: 50rpx;
+  position: absolute;
+  display: inline-block;
+}
+.session-picker .picker{
+  color: #666666;
+  font-size: 26rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15rpx;
+  width:100%;
+}

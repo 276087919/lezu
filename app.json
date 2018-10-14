@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/recommend/recommend",
+    "pages/station/station",
+    "pages/traffic/traffic",
+    "pages/around/around",
+    "pages/order/order"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "乐租松江",
+    "backgroundColor": "#F7F7FF"
+  }
+  
+
+}
+
+

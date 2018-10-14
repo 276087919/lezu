@@ -1,0 +1,95 @@
+<view class='container'>
+
+  <map></map>
+  
+  <view class='bd'>
+    <view class='around'>
+      <view class='mall'><image src='/imgs/bussDistrict.png'></image></view>
+      <view class='mall-left con'>
+        <view><text>附近商圈</text></view>
+        <view class='distance'><text>最近商圈距小区764米</text></view>
+      </view>
+      <view class='mall-right con'> 
+        <view class='time'><text>10min</text></view>
+        <view class='time-btm'><text>步行仅需10分钟</text></view>
+      </view>
+    </view>
+    <view class='line'></view>
+    <view class='around'>
+      <view class='hospital'><image src='/imgs/hospital.png'></image></view>
+      <view class='hospital-left con'>
+        <view><text>附近医院</text></view>
+        <view class='distance'><text>最近三医院距小区4687米</text></view>
+      </view>
+      <view class='hospital-right con'> 
+        <view class='time'><text>12min</text></view>
+        <view class='time-btm'><text>驱车仅需12分钟</text></view>
+      </view> 
+    </view>
+    <view class='line'></view>
+    <view class='around'>
+      <view class='supMarket'><image src='/imgs/supMarket.png'></image></view>
+      <view class='supMarket-left con'>
+        <view><text>附近超市</text></view>
+        <view class='distance'><text>最近大型超市距小区864米</text></view>
+      </view>
+      <view class='supMarket-right con'> 
+        <view class='time'><text>15min</text></view>
+        <view class='time-btm'><text>步行仅需15分钟</text></view>
+      </view>    
+    </view>
+    <view class='line'></view>
+    <view class='around'>
+      <view class='vegMarket'><image src='/imgs/vegMarket.png'></image></view>
+      <view class='vegMarket-left con'>
+        <view><text>附近菜场</text></view>
+        <view class='distance'><text>最近菜场距小区645米</text></view>
+      </view>
+      <view class='vegMarket-right con'> 
+        <view class='time'><text>6min</text></view>
+        <view class='time-btm'><text>步行仅需6分钟</text></view>
+      </view>    
+    </view>
+  </view>
+
+  <view class='tabBar'>
+    <scroll-view scroll-x='true' class='scroll'>
+      <!-- 推荐小区 -->
+      <view class='recommend'>
+        <navigator url='/pages/recommend/recommend'>
+          <view class='rec-icon'><image src='../../imgs/nav/recommend.png'></image></view>
+          <view class='rec-txt'><text>推荐小区</text></view>
+        </navigator>
+      </view>
+      <!-- 概况 -->
+      <view class='station'>
+        <navigator url='/pages/station/station'>
+          <view class='sta-icon'><image src='../../imgs/nav/station.png'></image></view>
+          <view class='sta-txt'><text>概况</text></view>
+        </navigator>
+      </view>
+      <!-- 交通 -->
+      <view class='traffic'>
+        <navigator url='/pages/traffic/traffic'>
+          <view class='tra-icon'><image src='../../imgs/nav/traffic.png'></image></view>
+          <view class='tra-txt'><text>交通</text></view>
+        </navigator>
+      </view>
+      <!-- 周边 -->
+      <view class='around'>
+        <navigator url='/pages/around/around'>
+          <view class='aro-icon'><image src='../../imgs/nav/around-big.png'></image></view>
+          <view class='aro-txt'><text>周边</text></view>
+        </navigator>
+      </view>
+      <!-- 治安 -->
+      <view class='order'>
+        <navigator url='/pages/order/order'>
+          <view class='ord-icon'><image src='../../imgs/nav/order.png'></image></view>
+          <view class='ord-txt'><text>治安</text></view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

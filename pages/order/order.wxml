@@ -1,0 +1,94 @@
+<view class='container'>
+  <view class='bd'>
+    <view class='bd-top'>
+      <view class='sign-left'><image src='../../imgs/sign.png'></image></view>
+      <view class='sign-right'><image src='../../imgs/sign.png'></image></view>
+      <view class='level'>
+        <view class='lv-tit'><text>小区治安评级</text></view>
+        <view class='lv-imgs'>
+          <view><image src='../../imgs/star.png'></image></view>
+          <view><image src='../../imgs/star.png'></image></view>
+          <view><image src='../../imgs/star.png'></image></view>
+          <view><image src='../../imgs/starbg.png'></image></view>
+          <view><image src='../../imgs/starbg.png'></image></view>
+        </view>
+      </view>
+    </view>
+    <view class='bd-con'>
+      <view class='measure'>
+        <view class='mea-con'>
+            <view class='title'>
+              <text>安保措施</text>
+              <view class='circle'></view>
+            </view>
+            <view class='mea-li'>
+              <view class='list1'>
+                <image src='../../imgs/li.png'></image>
+                <text>一位尽职的守门老大爷</text>
+              </view>
+              <view class='list2'>
+                <image src='../../imgs/li.png'></image>
+                <text>360度无死角监控</text>
+              </view>
+            </view>       
+        </view>
+        <view class='img-right'><image src='../../imgs/monitor.png'></image></view>
+      </view>
+      <view class='line'></view>
+      <view class='larceny'>
+          <view class='lar-con'>
+              <view class='title'>
+                <text>盗窃率</text>
+                <view class='circle'></view>
+              </view>
+              <view class='lar-li'>
+                <view class='list1'><text>小区盗窃率仅3%</text></view>
+                <view class='list2'><text>远低于全市平均盗窃率</text></view>
+              </view>
+          </view>
+          <view class='img-left'><image src='../../imgs/security.png'></image></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='tabBar'>
+    <scroll-view scroll-x='true' class='scroll'>
+      <!-- 推荐小区 -->
+      <view class='recommend'>
+        <navigator url='/pages/recommend/recommend'>
+          <view class='rec-icon'><image src='../../imgs/nav/recommend.png'></image></view>
+          <view class='rec-txt'><text>推荐小区</text></view>
+        </navigator>
+      </view>
+      <!-- 概况 -->
+      <view class='station'>
+        <navigator url='/pages/station/station'>
+          <view class='sta-icon'><image src='../../imgs/nav/station.png'></image></view>
+          <view class='sta-txt'><text>概况</text></view>
+        </navigator>
+      </view>
+      <!-- 交通 -->
+      <view class='traffic'>
+        <navigator url='/pages/traffic/traffic'>
+          <view class='tra-icon'><image src='../../imgs/nav/traffic.png'></image></view>
+          <view class='tra-txt'><text>交通</text></view>
+        </navigator>
+      </view>
+      <!-- 周边 -->
+      <view class='around'>
+        <navigator url='/pages/around/around'>
+          <view class='aro-icon'><image src='../../imgs/nav/around.png'></image></view>
+          <view class='aro-txt'><text>周边</text></view>
+        </navigator>
+      </view>
+      <!-- 治安 -->
+      <view class='order'>
+        <navigator url='/pages/order/order'>
+          <view class='ord-icon'><image src='../../imgs/nav/order-big.png'></image></view>
+          <view class='ord-txt'><text>治安</text></view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

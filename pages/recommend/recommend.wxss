@@ -1,0 +1,234 @@
+/* pages/recommend/recommend.wxss */
+.container{
+  width:100%;
+  height:100%;
+}
+
+/* 顶部图标 */
+.tips{
+  width: 100rpx;
+  height:100rpx;
+  margin-left: 70rpx;
+}
+
+/* 小区价格 */
+.housePrice{
+  position: relative;
+  width: 630rpx;
+  height: 400rpx;
+  margin: 0 auto;
+  border-radius: 15rpx;
+  border: 1px solid #D1DCEF;
+  box-shadow: 0 0 10rpx #DEE5F4;
+  overflow: hidden;
+}
+
+.price-top{
+  width: 100%;
+  height: 300rpx;
+}
+
+.price-bg{
+  width: 100%;
+  height: 300rpx;
+}
+
+.price-btm{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.message{
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.houseName{
+  left: 25rpx;
+}
+
+.houseRent{
+  right: 25rpx;
+  color: #F6A200;
+}
+
+/* 小区人员分析 */
+.housePeople{
+  position: relative;
+  width: 630rpx;
+  height: 480rpx;
+  margin-top: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15rpx;
+  border: 1px solid #D1DCEF;
+  border-bottom: none;
+  box-shadow: 0 0 10rpx #DEE5F4;
+  /* overflow: hidden; */
+}
+
+.people-l,
+.people-r{
+  position: absolute;
+  width: 310rpx;
+  height: 440rpx;
+  top: 40rpx;
+}
+
+.people-l{
+  left: 0rpx;
+}
+
+.people-r{
+  right: 0rpx;
+}
+
+.line{
+  position: absolute;
+  height: 400rpx;
+  width: 0;
+  border-left: 1rpx solid #CAD9EA;
+  top: 40rpx;
+  left: 313rpx;
+}
+
+.analysis{
+  width: 185rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+  background-color: #D9E8FB;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #666666;
+  margin: 0 auto;
+}
+
+.peopleimg{
+  width: 190rpx;
+  height: 170rpx;
+  margin: 20rpx auto;
+}
+
+.progress1,
+.progress2{
+  width: 190rpx;
+  height: 15rpx;
+  margin: 0 auto;
+  background-color: #EBEBEB;
+}
+
+.pro1-color{
+  width: 87%;
+  height: 100%;
+  background-color: #009CFF;
+}
+
+.pro2-color{
+  width: 64%;
+  height: 100%;
+  background-color: #FFAE00;
+}
+
+.peopleimg image{
+  width: 100%;
+  height: 100%;
+}
+
+.percent1,
+.percent2{
+  font-size: 33rpx;
+  font-weight: bold;
+  text-align: center;
+  margin: 10rpx 0;
+}
+
+.percent1,
+.describe1{
+  color: #009CFF;
+}
+
+.percent2,
+.describe2{
+  color: #FFAE00;
+}
+
+.describe1,
+.describe2{
+  font-size: 28rpx;
+  text-align: center;
+}
+
+/* 空白 */
+.blank{
+  width: 100%;
+  height: 220rpx;
+}
+
+/* 底部导航栏 */
+.tabBar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 230rpx;
+  background-color: #4F81B8;
+  overflow: hidden;
+  white-space: nowrap;
+  /* display: flex; */
+}
+
+.scroll{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabBar .recommend,
+.tabBar .station,
+.tabBar .traffic,
+.tabBar .around,
+.tabBar .order{
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+
+}
+
+.tabBar .recommend{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.tabBar .recommend .rec-icon,
+.tabBar .station .sta-icon,
+.tabBar .traffic .tra-icon,
+.tabBar .around .aro-icon,
+.tabBar .order .ord-icon{
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.tabBar .recommend .rec-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.tabBar view image{
+  width: 100%;
+  height: 100%;
+}
+
+.tabBar .recommend .rec-txt,
+.tabBar .station .sta-txt,
+.tabBar .traffic .tra-txt,
+.tabBar .around .aro-txt,
+.tabBar .order .ord-txt{
+  font-size: 25rpx;
+  color: #fff;
+  text-align: center;
+  margin-top: 20rpx;
+}
+

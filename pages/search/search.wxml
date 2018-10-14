@@ -1,0 +1,45 @@
+<view class='container'>
+  <view class='top'>
+    <view class='imgtop'>
+      <image class='p1top' src='../../imgs/p1-top.png'></image>
+    </view>
+    <view class='content'>
+      <view class='con-top'>
+        <view class='top-title'>
+        说出你的要求，小仙帮你找美房~
+        </view> 
+        <image class='p1tit' src='../../imgs/p1-tit.png'></image>    
+      </view>
+      <view class='con-mid'>
+        <view class='con-input'>
+          <text>当前月薪</text>
+          <input type='number' bindinput='bindNumInput'></input>
+        </view>
+        <view class='con-input'>
+          <text>期待户型</text>
+          <!-- <input type='text' name='expectedUnit'></input> -->
+          <!--这里使用选择器  具体可以参照api文档的用法 -->
+          <picker class='session-picker' id='houseType' bindchange='bindPickerChange' value="{{houseTypeIndex}}" range='{{houseType}}'>
+          <view class='picker'>
+            {{houseType[houseTypeIndex]}}
+          </view>
+          </picker>
+        </view>
+
+        <view class='con-input'>
+          <text>工作地标</text>
+          <input type='text' bindinput='bindTextInput'></input>
+        </view>     
+      </view>
+      <!-- 按钮要判断用户是否选择填写当前月薪 -->
+      <view class='btn'>
+     <view catchtap='searchBtnClick'>快速速帮我找美房</view> 
+      </view>
+    </view>
+  </view>
+  
+  <view class='imgbom'>
+    <image class='p1bom' src='../../imgs/p1-bom.png'></image>  
+  </view>
+
+</view>
